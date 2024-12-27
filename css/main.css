@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+	background-image: url("../img/bg1.jpg"); /* Ensure this path matches your image's location */
+	background-size: cover; /* Cover the full page */
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0;
+	color: white; /* Default text color for readability */
+  }
+  
+  /* Header */
+  #header {
+	background-color: rgba(40, 57, 101, 0.9);
+	color: white;
+	font: 600 18px/24px 'Open Sans', sans-serif;
+	padding: 20px;
+  }
+  #header a {
+	color: #ecf0f1;
+	font-size: 18px;
+	margin-left: 20px;
+	text-transform: uppercase;
+	transition: color 0.3s ease;
+  }
+  #header a:hover {
+	color: #f39c12;
+  }
+  
+  /* Section */
+  #section1 {
+	background-color: rgba(40, 57, 101, 0.5);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	padding: 50px 20px;
+	margin: 20px auto;
+	max-width: 600px;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .title {
+	width: 100%;
+	padding: 12px 20px;
+	margin-top: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 30px;
+  }
+  
+  /* Form */
+  .form_design {
+	margin: 50px auto;
+	width: 50%;
+  }
+  input[type="text"], input[type="password"] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border-radius: 10px;
+	box-sizing: border-box;
+  }
+  input[type="button"], input[type="submit"], input[type="reset"] {
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	padding: 10px 26px;
+	cursor: pointer;
+	display: block;
+	margin: 10px auto;
+  }
+  
+  /* Dropdown Menu */
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  .dropdown-content a {
+	color: #34495e;
+	padding: 10px 16px;
+	text-decoration: none;
+	display: block;
+	transition: background-color 0.3s;
+  }
+  .dropdown-content a:hover {
+	background-color: #f39c12;
+	color: white;
+  }
+  
+  /* Login Section */
+  #login-section {
+	max-width: 400px;
+	margin: 100px auto;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	text-align: center;
+  }
+  #login-section h2 {
+	margin-bottom: 20px;
+	color: #f39c12;
+  }
+  #login-section a {
+	color: #f39c12;
+	text-decoration: none;
+  }
+  #login-section a:hover {
+	text-decoration: underline;
+  }
+  
+  /* Footer */
+  #footer {
+	background-color: rgba(40, 57, 101, 0.9);
+	color: white;
+	padding: 20px;
+	font: 600 12px/14px 'Open Sans', sans-serif;
+	text-align: center;
+	border-radius: 5px;
+  }
+  /* Ensure the body and html elements fill the viewport */
+html, body {
+	height: 100%; /* Ensures the background fills the full height */
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* Wrapper to ensure content stretches to full height */
+  #content {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh; /* Ensures content fills at least the full viewport height */
+  }
+  
+  /* Footer stays at the bottom */
+  #footer {
+	background-color: rgba(4, 5, 9, 0.9);
+	color: white;
+	font: 600 12px/14px 'Open Sans', sans-serif;
+	text-align: center;
+	padding: 20px;
+	margin-top: auto; /* Pushes footer to the bottom of the viewport */
+	border-radius: 5px;
+  }
+  
